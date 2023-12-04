@@ -9,3 +9,5 @@ controllers/blogController.js (blog routes)
 # node, express, mongodb
 npm i > localhost:3000
 nodemon app.js
+
+![pic](./public/node-blog.png)
