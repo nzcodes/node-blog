@@ -10,4 +10,4 @@ controllers/blogController.js (blog routes)
 npm i > localhost:3000
 nodemon app.js
 
-![pic](./public/node-blog.png)
+![pic](./ublic/node-blog.png)
