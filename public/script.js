@@ -13,7 +13,7 @@ document.body.addEventListener('click', function(event) {
 
 // keyboard shortcut 'l'
 window.addEventListener('keydown', function(event) {
-  if (event.key === 'l') {
+  if (event.altKey && event.key.toLowerCase() === 'l') {
     document.body.classList.toggle('dark-mode');
     localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
   }

@@ -138,7 +138,7 @@ textarea{
 .dark-mode nav p, .dark-mode nav a {
   color: #ddd;
 }
-
+/* svg */
 #sun {
   display: none;
 }
@@ -148,7 +148,6 @@ textarea{
 .dark-mode #moon {
   display: none;
 }
-
 button.dark-mode-toggle {
   border: none;
   background: none;
