@@ -1,13 +1,15 @@
-views/index.ejs...
-views/partials/head.ejs...
-public/styles.css, script.js, pic.jpg
+# Files structure
+views/index,about,404.ejs...  
+views/partials/head,footer,nav.ejs...  
+public/styles.css,script.js,pic.svg  
 
-models/blog.js (db model)
-routes/blogRoutes.js (route handlers)
-controllers/blogController.js (blog routes)
+models/blog.js (mongodb db model)  
+routes/blogRoutes.js (route handlers)  
+controllers/blogController.js (blog routes)  
 
-# node, express, mongodb
-npm i > localhost:3000
-nodemon app.js
+# Start server
+npm i > localhost:3000  
+nodemon app.js  
 
+# Expressjs blog with mongodb
 ![pic](./public/node-blogg.png)
